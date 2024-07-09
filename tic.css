@@ -1,0 +1,98 @@
+/* Header */
+h1 {
+	color: orangered;
+	margin-bottom: 0; /* Adjusted to 0 for better spacing */
+}
+
+/* Paragraphs */
+p {
+	margin-bottom: 5px; /* Adjusted for better readability */
+}
+
+/* Main UI Container */
+.ui {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #f0f8ff; 
+	padding: 20px; /* Added padding for better spacing */
+	border-radius: 10px; /* Rounded corners */
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+
+/* Rows and Cells */
+.row {
+	display: flex;
+}
+
+.cell {
+	border: none;
+	width: 80px;
+	height: 80px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 24px;
+	text-align: center;
+	cursor: pointer;
+	background-color: #ffffff; /* White background */
+	border-radius: 8px; /* Rounded corners */
+	margin: 5px; /* Added margin between cells */
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+	transition: background-color 0.3s ease; /* Smooth hover transition */
+}
+
+.cell:hover {
+	background-color: #f0f0f0; /* Light gray on hover */
+}
+
+.cell:active {
+	outline: none;
+}
+
+/* Grid Borders */
+#b1, #b2, #b3, #b4, #b5, #b6, #b7, #b8, #b9 {
+	border: 1px solid #d3d3d3; /* Light gray borders */
+}
+
+/* Reset Button */
+#but {
+	box-sizing: border-box;
+	width: 120px; /* Slightly wider button */
+	height: 50px; /* Slightly taller button */
+	border: none;
+	border-radius: 10px;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	background-color: dodgerblue;
+	color: #ffffff; /* White text */
+	font-size: 18px;
+	cursor: pointer;
+	margin-top: 20px; /* Adjusted margin for spacing */
+	transition: background-color 0.3s ease; /* Smooth hover transition */
+}
+
+#but:hover {
+	background-color: #1e90ff; /* Darker blue on hover */
+}
+
+/* Player turn space */
+#print {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	color: dodgerblue;
+	font-size: 20px;
+	margin-top: 10px; /* Adjusted margin for spacing */
+}
+
+/* Main Container */
+#main {
+	text-align: center;
+	margin-top: 20px; /* Adjusted margin for spacing */
+}
+
+/* Game Instruction Text */
+#ins {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	color: dodgerblue;
+	font-size: 16px;
+	margin-top: 10px; /* Adjusted margin for spacing */
+}
