@@ -17,13 +17,13 @@ body {
 }
 
 h1 {
-    color: orangered;
+    color: dodgerblue;
     margin-bottom: 0;
 }
 
 p {
     margin-bottom: 5px;
-    color: dodgerblue;
+    color: black;
 }
 
 .ui {
